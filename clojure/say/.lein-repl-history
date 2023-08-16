@@ -1,0 +1,9 @@
+(ns say)
+(def n 345)
+n
+(<= n 0)
+(and (>= n 0) (<= n 999999999999))
+(defn number [num] ;; <- arglist goes here
+  ;; your code goes here
+  (throw-if (not (and (>= num 0) (<= num 999999999999))) IllegalArgumentException.)
+)

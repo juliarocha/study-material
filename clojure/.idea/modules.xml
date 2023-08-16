@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/accumulate/accumulate.iml" filepath="$PROJECT_DIR$/accumulate/accumulate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/acronym/acronym.iml" filepath="$PROJECT_DIR$/acronym/acronym.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annalyns-infiltration/annalyns-infiltration.iml" filepath="$PROJECT_DIR$/annalyns-infiltration/annalyns-infiltration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/armstrong-numbers/armstrong-numbers.iml" filepath="$PROJECT_DIR$/armstrong-numbers/armstrong-numbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bird-watcher/bird-watcher.iml" filepath="$PROJECT_DIR$/bird-watcher/bird-watcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bob/bob.iml" filepath="$PROJECT_DIR$/bob/bob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cars-assemble/cars-assemble.iml" filepath="$PROJECT_DIR$/cars-assemble/cars-assemble.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/clojure.iml" filepath="$PROJECT_DIR$/.idea/clojure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elyses-destructured-enchantments/elyses-destructured-enchantments.iml" filepath="$PROJECT_DIR$/elyses-destructured-enchantments/elyses-destructured-enchantments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-world/hello-world.iml" filepath="$PROJECT_DIR$/hello-world/hello-world.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interest-is-interesting/interest-is-interesting.iml" filepath="$PROJECT_DIR$/interest-is-interesting/interest-is-interesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log-levels/log-levels.iml" filepath="$PROJECT_DIR$/log-levels/log-levels.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lucians-luscious-lasagna/lucians-luscious-lasagna.iml" filepath="$PROJECT_DIR$/lucians-luscious-lasagna/lucians-luscious-lasagna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reverse-string/reverse-string.iml" filepath="$PROJECT_DIR$/reverse-string/reverse-string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/squeaky-clean/squeaky-clean.iml" filepath="$PROJECT_DIR$/squeaky-clean/squeaky-clean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sublist/sublist.iml" filepath="$PROJECT_DIR$/sublist/sublist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tracks-on-tracks-on-tracks/tracks-on-tracks-on-tracks.iml" filepath="$PROJECT_DIR$/tracks-on-tracks-on-tracks/tracks-on-tracks-on-tracks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/two-fer/two-fer.iml" filepath="$PROJECT_DIR$/two-fer/two-fer.iml" />
+    </modules>
+  </component>
+</project>

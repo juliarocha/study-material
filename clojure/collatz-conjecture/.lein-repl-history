@@ -1,0 +1,38 @@
+(ns collatz-conjecture)
+(defn- calc [count num]
+  (if (= num 1)
+    count
+    ((if (even? num)
+       (calc (inc count) (/ num 2))
+       (calc (inc count) (inc (* num 3)))
+       )))
+  )
+(def num 12)
+num
+(/ num 2)
+(even? num)
+(inc (* num 3))
+(inc (* 6 3))
+(inc (* 3 3))
+(calc 0 12)
+(= num 1)
+(defn- calc [count num]
+  (if (= num 1)
+    count
+    ((if (even? num)
+       (calc (inc count) (/ num 2))
+       (calc (inc count) (inc (* num 3)))
+       ))
+    )
+  )
+(calc 1 12)
+(defn- calc [count num]
+  (if (= num 1)
+    count
+    (if (even? num)
+       (calc (inc count) (/ num 2))
+       (calc (inc count) (inc (* num 3)))
+       )
+    )
+  )
+(calc 0 12)

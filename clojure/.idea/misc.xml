@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeiningenProjectsManager">
+    <option name="projectFiles">
+      <set>
+        <option value="file://$PROJECT_DIR$/accumulate/project.clj" />
+        <option value="file://$PROJECT_DIR$/acronym/project.clj" />
+        <option value="file://$PROJECT_DIR$/annalyns-infiltration/project.clj" />
+        <option value="file://$PROJECT_DIR$/armstrong-numbers/project.clj" />
+        <option value="file://$PROJECT_DIR$/bird-watcher/project.clj" />
+        <option value="file://$PROJECT_DIR$/bob/project.clj" />
+        <option value="file://$PROJECT_DIR$/cars-assemble/project.clj" />
+        <option value="file://$PROJECT_DIR$/elyses-destructured-enchantments/project.clj" />
+        <option value="file://$PROJECT_DIR$/hello-world/project.clj" />
+        <option value="file://$PROJECT_DIR$/interest-is-interesting/project.clj" />
+        <option value="file://$PROJECT_DIR$/log-levels/project.clj" />
+        <option value="file://$PROJECT_DIR$/lucians-luscious-lasagna/project.clj" />
+        <option value="file://$PROJECT_DIR$/reverse-string/project.clj" />
+        <option value="file://$PROJECT_DIR$/squeaky-clean/project.clj" />
+        <option value="file://$PROJECT_DIR$/sublist/project.clj" />
+        <option value="file://$PROJECT_DIR$/tracks-on-tracks-on-tracks/project.clj" />
+        <option value="file://$PROJECT_DIR$/two-fer/project.clj" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="adopt-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,86 @@
+(ns pangram)
+(defn pangram? [phrase] ;; <- arglist goes here
+  ;; your code goes here
+  (let [alphabet "abcdefghijklmnopqrstuvwxyz"]
+    (every? (fn [x] (contains? alphabet x)) phrase))
+)
+(pangram? "hi)
+"
+)
+(pangram? "hi")
+(ns pangram
+  (:require [clojure.string :as str]))
+(defn pangram? [phrase] ;; <- arglist goes here
+  ;; your code goes here
+  (let [alphabet "abcdefghijklmnopqrstuvwxyz"]
+    (every? (fn [x] (str/includes? alphabet x)) (str/trim phrase)))
+)
+(pangram? "hi")
+(defn pangram? [phrase]
+  
+  (let [alphabet "abcdefghijklmnopqrstuvwxyz"]
+    (every? (fn [x] (str/includes? alphabet x)) phrase
+            )
+    
+    )
+)
+(pangram? "hi")
+(defn pangram? [phrase]
+  (let [alphabet "abcdefghijklmnopqrstuvwxyz"]
+    (for [x alphabet]
+       (str/includes? phrase x)
+       ))
+)
+(pangram? "hi")
+(defn pangram? [phrase]
+  (let [alphabet "abcdefghijklmnopqrstuvwxyz"]
+    (for [x alphabet]
+       (println x)
+       )
+    )
+)
+(pangram? "")
+(str/includes? "hi" "i")
+(defn pangram? [phrase]
+  (let [alphabet "abcdefghijklmnopqrstuvwxyz"]
+    (for [x alphabet]
+       (str/includes? phrase x)
+       )
+    )
+)
+(pangram? "hello")
+(defn pangram? [phrase]
+  (let [alphabet "abcdefghijklmnopqrstuvwxyz"]
+    (for [x alphabet]
+       (str/includes? x phrase)
+       )
+    )
+)
+(pangram? "hello")
+(defn pangram? [phrase]
+  (let [alphabet "abcdefghijklmnopqrstuvwxyz"]
+    (for [x alphabet]
+       (str/includes? phrase (char x))
+       )
+    )
+)
+(pangram? "hi")
+(defn pangram? [phrase]
+  (let [alphabet "abcdefghijklmnopqrstuvwxyz"]
+    (for [x alphabet]
+       (str/includes? phrase (str x))
+       )
+    )
+)
+(pangram? "hello")
+(defn pangram? [phrase]
+  (let [alphabet "abcdefghijklmnopqrstuvwxyz"]
+    (every? true? 
+      (for [x alphabet]
+        (str/includes? phrase (str x))
+        )
+    )
+  )
+)
+(pangram? "hello")
+(pangram? "7h3 qu1ck brown fox jumps ov3r 7h3 lazy dog")
